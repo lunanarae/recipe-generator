@@ -7,7 +7,7 @@ body {
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  background-position: fixed;
+  background-image: fixed;
 
   font-family: "Madimi One", sans-serif;
 }
