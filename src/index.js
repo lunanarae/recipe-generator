@@ -1,7 +1,7 @@
 function generateRecipe(event) {
   event.preventDefault();
   new Typewriter("#recipe", {
-    strings: "REDAY ....",
+    strings: "REDAY ....Go...",
     autoStart: true,
     cursor: " ",
     delay: 100,
