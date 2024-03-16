@@ -1,9 +1,13 @@
 body {
-  background: linear-gradient(rgb(245, 244, 232, 0.5), rgb(245, 244, 232, 0.5)),
+  background: linear-gradient(
+      rgba(243, 242, 232, 0.5),
+      rgba(243, 242, 232, 0.5)
+    ),
     url("backgroundimg.jpg");
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+  background-position: fixed;
 
   font-family: "Madimi One", sans-serif;
 }
@@ -32,6 +36,7 @@ h2 {
 
 small {
   font-style: italic;
+  opacity: 0.8;
 }
 form {
   display: flex;
