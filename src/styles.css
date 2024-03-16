@@ -1,3 +1,64 @@
 body {
-  background: yellowgreen;
+  background: rgb(205, 122, 50);
+  font-family: "Madimi One", sans-serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 25px 25px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1.8;
+  color: rgb(63, 31, 3);
+}
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+  opacity: 0.8;
+  margin-left: 20px;
+}
+
+small {
+  font-style: italic;
+}
+form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-box,
+.submit-button {
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0, 0, 0, 0.3;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.input-box {
+  width: 68%;
+}
+.submit-button {
+  background-color: rgb(63, 31, 3);
+  color: antiquewhite;
+  width: 20%;
+}
+p {
+  margin: 30px;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 35px;
+}
+a {
+  line-height: 1.8;
+  font-style: italic;
+  color: rgb(63, 31, 3);
 }
