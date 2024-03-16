@@ -1,5 +1,10 @@
 body {
-  background: rgb(205, 122, 50);
+  background: linear-gradient(rgb(245, 244, 232, 0.5), rgb(245, 244, 232, 0.5)),
+    url("backgroundimg.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
   font-family: "Madimi One", sans-serif;
 }
 
@@ -51,6 +56,13 @@ form {
 }
 p {
   margin: 30px;
+}
+.recipe {
+  font-size: 20px;
+  font-weight: 30;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 15px;
 }
 footer {
   text-align: center;
